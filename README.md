@@ -1,185 +1,122 @@
-# Basic Function Homework
+# Python Basic Functions Homework
 
+This repository contains basic Python function exercises to help you practice function creation and return values.
 
-Automated grading of homework assignments and tests
-- fork this repository
-- solve the task
-- commit with proper message
-- commit with proper message
+## Instructions
+1. Fork this repository to your own GitHub account
+2. Clone your forked repository to your local machine
+3. Solve each task in its corresponding Python file
+4. Test your solution to make sure it works as expected
+5. Commit your changes with a descriptive message
+6. Push your changes to your GitHub repository
 
 # Problems
+
 ## basic_func01
+Create a function called `return_zero` that:
+- Takes no parameters
+- Returns the integer value 0
 
-  Create a function called main.
-
-**Example 1:**
-
+**Example:**
 ```Python
-Input:
-Output: 0
-
+return_zero()  # Returns: 0
 ```
 
 ## basic_func02
+Create a function called `get_hello_world` that:
+- Takes no parameters
+- Returns the string "Hello World"
 
-  Create a function called main.
-
-**Example 1:**
-
+**Example:**
 ```Python
-Input:
-Output: "Hello World"
-
+get_hello_world()  # Returns: "Hello World"
 ```
 
 ## basic_func03
+Create a function called `get_school_name` that:
+- Takes no parameters
+- Returns the string "codeschooluz"
 
-  Create a function called main.
-
-**Example 1:**
-
+**Example:**
 ```Python
-Input:
-Output: "codeschooluz"
-
+get_school_name()  # Returns: "codeschooluz"
 ```
 
 ## basic_func04
+Create a function called `return_integer` that:
+- Takes no parameters
+- Returns an integer value (either positive or negative)
 
-  Create a function called main.
-
-**Example 1:**
-
+**Examples:**
 ```Python
-Input:
-Output (int): 1
-
-```
-
-**Example 2:**
-
-```Python
-Input:
-Output (int): -1
-
+return_integer()  # Example return: 1
+return_integer()  # Example return: -1
 ```
 
 ## basic_func05
+Create a function called `return_float` that:
+- Takes no parameters
+- Returns a floating-point number
 
-  Create a function called main.
-
-**Example 1:**
-
+**Examples:**
 ```Python
-Input:
-Output (float): 1.5
-```
-
-**Example 2:**
-
-```Python
-Input:
-Output (float): -2.4
+return_float()  # Example return: 1.5
+return_float()  # Example return: -2.4
 ```
 
 ## basic_func06
+Create a function called `return_string` that:
+- Takes no parameters
+- Returns any string value
 
-  Create a function called main.
-
-**Example 1:**
-
+**Examples:**
 ```Python
-Input:
-Output (str): "Hello World"
-
-```
-
-**Example 2:**
-
-```Python
-Input:
-Output (str): "0"
-
+return_string()  # Example return: "Hello World"
+return_string()  # Example return: "0"
 ```
 
 ## basic_func07
+Create a function called `return_same_value` that:
+- Takes one parameter `a`
+- Returns the same value of `a` without any modification
 
-  Create a function called main.
-
-**Example 1:**
-
+**Examples:**
 ```Python
-Input: a = 5
-Output: 5
-
-```
-
-**Example 2:**
-
-```Python
-Input: a = 0
-Output: 0
-
+return_same_value(5)  # Returns: 5
+return_same_value(0)  # Returns: 0
 ```
 
 ## basic_func08
+Create a function called `increase_by_one` that:
+- Takes one parameter `a`
+- Returns the value of `a` increased by 1
 
-  Create a function called main.
-
-**Example 1:**
-
+**Examples:**
 ```Python
-Input: a = 5
-Output: 6
-
-```
-
-**Example 2:**
-
-```Python
-Input: a = 8
-Output: 9
-
+increase_by_one(5)  # Returns: 6
+increase_by_one(8)  # Returns: 9
 ```
 
 ## basic_func09
+Create a function called `decrease_by_one` that:
+- Takes one parameter `a`
+- Returns the value of `a` decreased by 1
 
-  Create a function called main.
-
-**Example 1:**
-
+**Examples:**
 ```Python
-Input: a = 5
-Output: 4
-
-```
-
-**Example 2:**
-
-```Python
-Input: a = 8
-Output: 7
-
+decrease_by_one(5)  # Returns: 4
+decrease_by_one(8)  # Returns: 7
 ```
 
 ## basic_func10
+Create a function called `get_opposite_value` that:
+- Takes one parameter `a`
+- Returns the opposite (negation) of `a`
 
-  Create a function called main.
-
-**Example 1:**
-
+**Examples:**
 ```Python
-Input: a = 5
-Output: -5
-
-```
-
-**Example 2:**
-
-```Python
-Input: a = 1
-Output: -1
-
+get_opposite_value(5)  # Returns: -5
+get_opposite_value(1)  # Returns: -1
 ```
 
 # Warning
