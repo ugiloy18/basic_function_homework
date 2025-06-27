@@ -3,3 +3,6 @@
 # 1. Take no parameters
 # 2. Return any floating-point number
 # Example return values: 1.5, -2.4, 0.0, etc.
+def return_float():
+    return "1.5"
+print(return_float())
