@@ -3,4 +3,7 @@
 # 1. Take one parameter 'a'
 # 2. Add 1 to the value of 'a'
 # 3. Return the increased value
-# Example: if a=5, return 6
+# Example: if a=5, return 
+def increase_by_one():
+    return('5')
+print(increase_by_one())
